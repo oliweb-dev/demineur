@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.1em;
+}
+
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td {
+  border: 0;
+  padding: 0;
+  width: 30px;
+  line-height: 30px;
+  height: 30px;
+  background-color: #eceff5;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+  cursor: default;
+  cursor: pointer;
+}
+
+.grey {
+  background-color: #c8c5c5;
+}
+
+.mine {
+  background: #eceff5 url(./img/mine.png) center no-repeat;
+  background-size: 22px 22px;
+}
+
+.white {
+  background-color: white;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+#table td[href*="google"] {
+  font-size: 2em;
+  background-color: darkblue;
+  color: white;
+}
